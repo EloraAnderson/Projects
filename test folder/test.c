@@ -3,10 +3,10 @@
 int main(void){
    char name[] = "Elora,";
    printf("%s", name);
-   char anumber[] = "7",;
+   char anumber[] = "7,";
    printf("%s", anumber);
-   char anumbertwo[] = "293,";
-   printf("%s",  anumbertwo);
+   char numbertwo[5] = "293,";
+   printf("%s",  numbertwo);
    char breakfast[] = "nothing,";
    printf("%s", breakfast);
    char fcolor[] ="green,";
