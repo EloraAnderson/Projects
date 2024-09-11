@@ -3,7 +3,7 @@
 int main(void){
    char name[] = "Elora,";
    printf("%s", name);
-   char anumber[] = "7,";
+   char anumber[] = "7",;
    printf("%s", anumber);
    char anumbertwo[] = "293,";
    printf("%s",  anumbertwo);
