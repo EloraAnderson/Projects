@@ -4,14 +4,14 @@ int main(void){
    char name[] = "Elora";
    printf("%s", name);
    char anum[] = "7";
-   printf("%s", anum)
-   float anum2[] = "293";
+   printf("%s", anum);
+   char anum2[] = "293";
    printf("%s", anum2);
    char breakfast[] = "nothing";
-   printf("%s", breakfast)
-   float fcolor[] ="green";
+   printf("%s", breakfast);
+   char fcolor[] ="green";
    printf("%s", fcolor);
-   char scoolname[] = "UCAS";
+   char schoolname[] = "UCAS";
    printf("%s", schoolname);
    char year[] = "2024";
    printf("%s", year);
@@ -20,6 +20,7 @@ int main(void){
    char age[] = "16";
    printf("%s", age);
    char favsubject[] = "chemistry";
-   printf("%s", favsub);
+   printf("%s", favsubject);
+
     return 0;
 }
