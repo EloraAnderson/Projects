@@ -1,25 +1,25 @@
 #include <stdio.h>
 
 int main(void){
-   char name[] = "Elora";
+   char name[] = "Elora,";
    printf("%s", name);
-   char anumber[] = "7";
-   printf("%s", anumber):
-   char anum2[] = "293";
-   printf("%s", anum2);
-   char breakfast[] = "nothing";
+   char anumber[] = "7,";
+   printf("%s", anumber);
+   char anumbertwo[] = "293,";
+   printf("%s",  anumbertwo);
+   char breakfast[] = "nothing,";
    printf("%s", breakfast);
-   char fcolor[] ="green";
+   char fcolor[] ="green,";
    printf("%s", fcolor);
-   char schoolname[] = "UCAS";
+   char schoolname[] = "UCAS,";
    printf("%s", schoolname);
-   char year[] = "2024";
+   char year[] = "2024,";
    printf("%s", year);
-   char eyecolor[] = "green";
+   char eyecolor[] = "green,";
    printf("%s", eyecolor);
-   char age[] = "16";
+   char age[] = "16,";
    printf("%s", age);
-   char favsubject[] = "chemistry";
+   char favsubject[] = "chemistry.";
    printf("%s", favsubject);
 
     return 0;
