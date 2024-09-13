@@ -26,9 +26,9 @@ int main(void) {
     printf("your income is: $%.2f\n", income);
     printf("your savings is: $%.2f\n", savings);
     printf("your total left to spend is: $%.2f\n", total);
-    printf("your rent is %.2f", prent, "of your income");  
-    printf("your utilities is %.2f\n", utillities); 
-    printf("your groceries is %.2f\n", groceries);
-    printf("your transportation is %.2f\n", transportation);
+    printf("your rent is: $%.2f\n", rent, "of your income");  
+    printf("your utilities is: $%.2f\n", utillities); 
+    printf("your groceries is: $%.2f\n", groceries);
+    printf("your transportation is: $%.2f\n", transportation);
 return 0;
 }
