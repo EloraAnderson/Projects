@@ -1,34 +1,38 @@
 #include <stdio.h>
 
+
 int main(void) {
-    float income,rent,utillities,groceries,transportation, expenses, savings, total;
-    float prent, Putilities, Pgroceries, Ptransportation, pexpences;
-    printf("this is your budget calculator for each month");
-    printf("how much do you make each month?\n");
-    scanf("%f" , &income);
-    printf("how much is rent?\n");
-    scanf("%f", &rent);
-    printf("how much is utilities?\n");
-    scanf("%f", &utillities);
-    printf("how much are groceries?\n");
-    scanf("%f", &groceries);
-    printf("how much is transportation?\n");
-    scanf("%f", &transportation); 
-    expenses = rent + utillities + groceries + transportation + expenses + savings + total;
-    savings = income * .2;
-    total = income - expenses - savings;
-    prent = rent/income;
-    Putilities = utillities/income;
-    Pgroceries = Pgroceries/income;
-    Ptransportation = Ptransportation/income;
-    pexpences = pexpences/income;
-    printf("your expenses is:$%.2f\n",expenses);
-    printf("your income is: $%.2f\n", income);
-    printf("your savings is: $%.2f\n", savings);
-    printf("your total left to spend is: $%.2f\n", total);
-    printf("your rent is: $%.2f\n", rent, "of your income");  
-    printf("your utilities is: $%.2f\n", utillities); 
-    printf("your groceries is: $%.2f\n", groceries);
-    printf("your transportation is: $%.2f\n", transportation);
-return 0;
+   float income, rent, utilities, groceries, transportation, expenses, savings, total;
+   float prent, putilities, pgroceries, ptransportation, pexpenses;
+   printf("this is going to calculate your budget for the month");
+   printf("how much do you make a month?\n");
+   scanf("%f", &income);
+   printf("your income is: $%.2f\n", income);
+   printf("how much is rent?\n");
+   scanf("%f", &rent);
+   printf("how much are your utilities?\n");
+   scanf("%f", &utilities);
+   printf("how much are groceries?\n");
+   scanf("%f", &groceries);
+   printf("how much is transportaion?\n");
+   scanf("%f", &transportation);
+   expenses = rent+utilities+groceries+transportation;
+   savings = income*.2;
+   printf("your expenses are: $%.2f\n", expenses);
+   total = income - expenses - savings;
+   prent = rent/income;
+   putilities = utilities/income;
+   pgroceries = groceries/ income;
+   ptransportation = transportation/income;
+   pexpenses = expenses/income;
+   printf("your income is: $%.2f\n", income);
+   printf("your expenses are: $%.2f\n", expenses);
+   printf("your savings are: $%.2f\n", savings);
+   printf("your total left to spend is: $%.2f\n", total);
+   printf("your rent is %.2f", prent, "of your income");
+   printf("your utilities are %.2f", putilities, "of your income");
+   printf("your groceries are %.2f", pgroceries, "of your income");
+   printf("your transportation is %.2f", ptransportation, "of your income");
+   printf("your expenses are %.2f", pexpenses, "of your income");
+   return 0;
 }
