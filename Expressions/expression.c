@@ -1,5 +1,5 @@
 #include <math.h>
-
+#include <stdio.h>
 int main(void){
    int numOne, numTwo, numTree, numFour, numFiv, numSix, numSeven, numEigt, numNine, numTen, numEleven, numTwelve;
    int numThrt, numFrt, numFif, numSixt, numSevt, numEigten, numNint, numTwny, numTyone;
