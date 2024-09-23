@@ -4,7 +4,7 @@
 int main(void) {
    float income, rent, utilities, groceries, transportation, expenses, savings, total;
    float prent, putilities, pgroceries, ptransportation, pexpenses;
-   printf("this is going to calculate your budget for the month");
+   printf("this is going to calculate your budget for the month\n");
    printf("how much do you make a month?\n");
    scanf("%f", &income);
    printf("your income is: $%.2f\n", income);
