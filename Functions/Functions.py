@@ -1,4 +1,5 @@
-name = input("what is your name?: ")
+def hello(name):
+    return "hello"+name
 
 
-print("hello",name)
+    return "hello"
