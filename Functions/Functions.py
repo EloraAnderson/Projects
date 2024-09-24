@@ -4,10 +4,4 @@ Aloha("Sandy")
 Aloha("Cephas")
 Aloha("Maddie")
 Aloha("Matt")
-Aloha("Kat")
-
-
-    
-
-
-    
+Aloha("Kat")  
