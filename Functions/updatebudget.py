@@ -1,3 +1,4 @@
+
 print("This is going to calculate your budget for the month.")
 income = float(input("How much do you make a month? $"))
 print(f"Your income is: ${income:.2f}")
