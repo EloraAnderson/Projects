@@ -1,4 +1,4 @@
-age = 2
+age = int(input(" how old are you "))
 if age >=18:
     print("you are able to vote")
 elif age >=16:
