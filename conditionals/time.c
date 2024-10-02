@@ -10,7 +10,7 @@ struct tm*now_tm;
 now = time(NULL);
 now_tm = localtime(&now);
 hour = now_tm->tm_hour;
-printf("%ld\n", hour);
+printf("%d\n", hour);
 
 if (hour <= 12){
     printf(" Goodmorning \n");
