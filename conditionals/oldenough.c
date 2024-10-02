@@ -2,7 +2,7 @@
 #include <stdbool.h>
 int main(void){
 int age;
-printf(" how old are you?");
+printf(" how old are you? ");
 scanf("%d", &age);
      if(age >= 18){
         printf(" you are old enough to vote \n");
